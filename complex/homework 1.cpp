@@ -19,7 +19,6 @@ public:
     Complex& operator=(const Complex& copied) {
         _real = copied._real;
         _imaginary = copied._imaginary;
-        return *this;
     }
 
     ~Complex() {
